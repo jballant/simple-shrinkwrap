@@ -1,0 +1,23 @@
+{
+  "name": "simple-shrinkwrap",
+  "version": "0.0.0",
+  "description": "npm shrinkwrap with only package names and versions",
+  "main": "index.js",
+  "bin": {
+    "simple-shrinkwrap": "./bin/cli.js"
+  },
+  "keywords": [
+    "npm",
+    "npm-shrinkwrap",
+    "simple",
+    "shrinkwrap"
+  ],
+  "readme": "README.md",
+  "author": "James Ballantine",
+  "license": "MIT",
+  "dependencies": {
+    "npm-shrinkwrap": "^5.1.0",
+    "yargs": "^1.3.3",
+    "npm": "1.4.21"
+  }
+}

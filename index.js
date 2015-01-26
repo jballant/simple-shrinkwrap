@@ -55,7 +55,7 @@ function onShrinkwrapComplete (err, optionalWarnings) {
 
     json = stripResolvedAndFrom(json);
 
-    fs.writeFile(pathToJson, JSON.stringify(json, null, 4), function (err) {
+    fs.writeFile(pathToJson, JSON.stringify(json, null, 2), function (err) {
         if (err) {
             throw err;
         }

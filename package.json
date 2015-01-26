@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "description": "npm shrinkwrap with only package names and versions",
   "main": "index.js",
+  "repository": "git://github.com/jballant/simple-shrinkwrap.git",
   "bin": {
     "simple-shrinkwrap": "./bin/cli.js"
   },
